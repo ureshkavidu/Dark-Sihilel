@@ -19,29 +19,29 @@ global.APIKeys = {
 }
 
 //customize settings\\
-global.owner = ['94704101989']
-global.premium = ['94704101989']
-global.ownernomer = '94704101989'
+global.owner = ['94714831387']
+global.premium = ['94714831387']
+global.ownernomer = '94714831387'
 global.ownername = '❤️S_I_H_I_L_E_L❤️'
-global.botname = '❤️𝙷𝙸𝚁𝚄𝚄_𝚀𝚄𝙴𝙴𝙽_𝙱𝙾𝚃❤️'
+global.botname = '𝚄 𝚁 𝙴 𝚂 𝙷 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🛒'
 global.footer = '©Sihilel.'
 global.ig = 'https://github.com/nexusNw'
 global.region = 'India, South India, Kerala'
 global.sc = 'https://github.com/Hiruu-Queen/Dark-Sihilel'
-global.myweb = 'Channel එකක් නෑ 😹'
-global.packname = '❤️HIRUU-QUEEN❤️'
-global.author = '❤️S_I_H_I_L_E_L❤️'
+global.myweb = '𝚄 𝚁 𝙴 𝚂 𝙷 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🛒'
+global.packname = '𝚄 𝚁 𝙴 𝚂 𝙷 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🛒'
+global.author = '𝚄 𝚁 𝙴 𝚂 𝙷 𝚆𝙷𝙰𝚃𝚂𝙰𝙿𝙿 𝙱𝙾𝚃🛒'
 global.sessionName = 'session'
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
     success: 'Done ✓',
-    admin: '♥️S+H♥️ ඇඩ්මින්ලට විතරයි මේක පුලුවන් ළමයෝ 🌝',
-    botAdmin: '♥️S+H♥️ ඇඩ්මින් දියන්කෝ මුලින් 😒',
-    owner: '♥️S+H♥ Owner ට විතරයි ළමයෝ ඕක පුලුවන් 🙏 ',
-    group: '♥️S+H♥️ group වල විතරයි ඕක😒',
-    private: '♥️S+H♥️ inbox විතරයි පුලුවන්🌝',
-    bot: '♥️S+H♥️ මේක මට විතරයි පුලුවන්😌👍 ඔයා පාඩුවේ ඉන්න 😒',
+    admin: '*ඇඩ්මින්ලට විතරයි🛒*',
+    botAdmin: 'ඇඩ්මින් 📄',
+    owner: 'Owner ට විතරයි ළමයෝ ඕක පුලුවන් 🙏 ',
+    group: '*group වල විතරයි*📄',
+    private: '*inbox විතරයි පුලුවන්*',
+    bot: '*මේක මට විතරයි පුලුවන්*',
     wait: '♥️S+H♥️ චුට්ටක් ඉන්න බබා 🌸🙏',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
