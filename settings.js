@@ -42,7 +42,7 @@ global.mess = {
     group: '*group වල විතරයි*📄',
     private: '*inbox විතරයි පුලුවන්*',
     bot: '*මේක මට විතරයි පුලුවන්*',
-    wait: '♥️S+H♥️ චුට්ටක් ඉන්න බබා 🌸🙏',
+    wait: '*චුට්ටක් ඉන්න*',
     error: 'Error! Maybe Api Key Is Expired🤔!',
     endLimit: 'Your Daily Limit Has Expired, The Limit Will Be Reset Every 12 Hours',
 }
