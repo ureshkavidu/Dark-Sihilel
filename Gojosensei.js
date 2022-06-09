@@ -862,7 +862,7 @@ if (q.includes('--help')) return reply(examkosong)
       {
        buttonId: `${prefix + command}`, 
        buttonText: {
-        displayText: 'Hiruu Hunt Again️🏹'
+        displayText: 'Uresh Hunt Again️🏹'
       }, type: 1},
     ]
     let buttonMessage = {
@@ -1452,7 +1452,7 @@ case 'halah': case 'hilih': case 'huluh': case 'heleh': case 'holoh':
                 if (!m.isGroup) return replay(`${mess.group}`)
                 if (!isBotAdmins) return replay(`${mess.botAdmin}`)
                 if (!isAdmins) return replay(`${mess.admin}`)
-let teks = `╚»˙·٠•●♥ Tag All By Hiruu ♥●•٠·˙«╝ 
+let teks = `╚»˙·٠•●♥ Tag All By Uresh ♥●•٠·˙«╝ 
  
  ➲ *Message : ${q ? q : 'no message'}*\n\n`
                 for (let mem of participants) {
@@ -1772,7 +1772,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '⚡Uresh⚡',
                                     id: 'owner'
                                 }
                             }]
@@ -1806,7 +1806,7 @@ break
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '⚡Uresh⚡',
                                     id: 'owner'
                                 }
                             }]
@@ -2087,16 +2087,16 @@ break
                 let buttonMessage = {
                     image: { url: anu.thumbnail },
                     caption: `
-🦄 Title : ${anu.title}
-🦄 Ext : Search
-🦄 ID : ${anu.videoId}
-🦄 Duration : ${anu.timestamp}
-🦄 Viewes : ${anu.views}
-🦄 Uploaded On : ${anu.ago}
-🦄 Author : ${anu.author.name}
-🦄 Channel : ${anu.author.url}
-🦄 Description : ${anu.description}
-🦄 Url : ${anu.url}`,
+🛒 Title : ${anu.title}
+🛒 Ext : Search
+🛒 ID : ${anu.videoId}
+🛒 Duration : ${anu.timestamp}
+🛒 Viewes : ${anu.views}
+🛒 Uploaded On : ${anu.ago}
+🛒 Author : ${anu.author.name}
+🛒 Channel : ${anu.author.url}
+🛒 Description : ${anu.description}
+🛒 Url : ${anu.url}`,
                     footer: GojoMdNx.user.name,
                     buttons: buttons,
                     headerType: 4
@@ -2104,7 +2104,7 @@ break
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-	    case 'ytmp3': case 'getmusic': case 'ytaudio': {
+	    case 'ytmp3': case 'getmusic': case 'yt': {
                 let { yta } = require('./lib/y2mate')
                 if (!text) return reply(`Example : ${prefix + command} https://youtube.com/watch?v=PtFMh6Tccag%27 128kbps`)
                 let quality = args[1] ? args[1] : '320kbps'
@@ -2676,7 +2676,7 @@ case 'webtonsearch': case 'webtoon':
                 }
             }
             break
-	        case 'tiktokd': case 'tiktoknowmx': {
+	        case 'tiktok': case 'tiktoknowmx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -2694,7 +2694,7 @@ case 'webtonsearch': case 'webtoon':
                 GojoMdNx.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break
-            case 'tiktokwmx': case 'tiktokwatermarkx': {
+            case 'tiktok': case 'tiktokwatermarkx': {
                 if (!text) return reply(`Enter Query Link!`)
                 reply(mess.wait)
                 let anu = await fetchJson(api('zenz', '/downloader/tiktok', { url: text }, 'apikey'))
@@ -3298,7 +3298,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 ┌┤✑  How Are You 🦄💫
 ││✑  🌝🖐️!!
 │└───────────────┈ ⳹
-│ 「 HIRUU QUEEN BOT INFO 」
+│ 「 URESH BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
@@ -3308,7 +3308,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  HIRUU QUEEN BOT CREATED BY SIHILEL 🦄💫
+   │✑  URESH BOT CREATED BY URESH 🦄💫
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3332,7 +3332,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '⚡SIHILEL⚡',
+                                    displayText: '⚡URESH⚡',
                                     id: `${prefix}owner`
                                 }
                             }]
@@ -3358,7 +3358,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 └┬❖ 「 ${pushname} 」
 ┌┤✑  How Are You 🙏⚡
 │└───────────────┈ ⳹
-│ 「 HIRUU QUEEN BOT INFO 」
+│ 「 URESH BOT INFO 」
 │✙ 𝗦𝗽𝗲𝗲𝗱 : ${latensie.toFixed(4)} miliseconds
 │✙ 𝗥𝘂𝗻𝘁𝗶𝗺𝗲 : ${runtime(process.uptime())}
 │✙ 𝗕𝗼𝘁 𝗡𝗮𝗺𝗲 : ${global.botname}
@@ -3368,7 +3368,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
 │✙ 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : ${os.platform()}
 │✙ 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.data.users).length}
 └┬──────────────┈ ⳹
-   │✑  HIRUU QUEEN BOT CREATED BY SIHILEL 🦄💫
+   │✑  URESH BOT CREATED BY URESH🦄💫
    └───────────────┈ ⳹`,
                             hydratedButtons: [{
                                 urlButton: {
@@ -3392,7 +3392,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                                 }
                                 }, {
                                 quickReplyButton: {
-                                    displayText: '🦄SIHILEL🦄',
+                                    displayText: '🦄URESH🦄',
                                     id: `${prefix}owner`
                                 }
                             }]
